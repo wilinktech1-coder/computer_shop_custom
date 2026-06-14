@@ -5,6 +5,18 @@ app_description = "Shop Custom"
 app_email = "wilinktech1@gmail.com"
 app_license = "mit"
 
+# Export UI customizations into this app so they can be versioned in Git.
+fixtures = [
+	"Custom Field",
+	"Property Setter",
+	"Print Format",
+	"Client Script",
+	"Server Script",
+	"Workflow",
+	"Workflow State",
+	"Workflow Action Master",
+]
+
 # Apps
 # ------------------
 
@@ -246,4 +258,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
